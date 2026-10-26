@@ -10,6 +10,8 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-10-26
+
 ### Added
 
 - The matches of French handball teams in the Gladys calendar, from ffhandball.fr: each user
@@ -28,4 +30,5 @@ the notes of the version's GitHub Release.
   UI-driven Release workflow, multi-arch image build, GitHub Releases, Dependabot.
 - `SECURITY.md`, `CLAUDE.md` and this changelog.
 
-[Unreleased]: https://github.com/prohand/gladys-calendar-ffhandball/commits/main
+[Unreleased]: https://github.com/prohand/gladys-calendar-ffhandball/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/prohand/gladys-calendar-ffhandball/releases/tag/v1.0.1

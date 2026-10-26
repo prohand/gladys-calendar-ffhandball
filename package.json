@@ -1,6 +1,6 @@
 {
   "name": "gladys-calendar-ffhandball",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Gladys Assistant external integration putting the matches of French handball teams (FFHandball) in the Gladys calendar.",
   "type": "module",
