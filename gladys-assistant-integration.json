@@ -37,10 +37,10 @@
         "es": "Primeros pasos"
       },
       "description": {
-        "en": "Each member of the household chooses their own teams: in My calendars on this page, paste the address of the ffhandball.fr page of each team (it ends with /equipe-<number>/), one per line, then enable. Each team becomes a calendar of its own, with every scheduled match, its hall and its score. Share a calendar there to use it in scenes. No account, no key: the integration reads the public website.",
-        "fr": "Chaque membre du foyer choisit ses équipes : dans Mes calendriers sur cette page, collez l'adresse de la page ffhandball.fr de chaque équipe (elle finit par /equipe-<numéro>/), une par ligne, puis activez. Chaque équipe devient un calendrier, avec chaque match programmé, sa salle et son score. Partagez un calendrier pour l'utiliser dans les scènes. Pas de compte, pas de clé : l'intégration lit le site public.",
-        "de": "Jedes Haushaltsmitglied wählt seine eigenen Mannschaften: Füge unter Meine Kalender auf dieser Seite die Adresse der ffhandball.fr-Seite jeder Mannschaft ein (sie endet mit /equipe-<Nummer>/), eine pro Zeile, und aktiviere. Jede Mannschaft wird ein eigener Kalender mit jedem angesetzten Spiel, seiner Halle und seinem Ergebnis. Teile dort einen Kalender, um ihn in Szenen zu nutzen. Kein Konto, kein Schlüssel: Die Integration liest die öffentliche Website.",
-        "es": "Cada miembro del hogar elige sus equipos: en Mis calendarios en esta página, pegue la dirección de la página de ffhandball.fr de cada equipo (termina en /equipe-<número>/), una por línea, y active. Cada equipo se convierte en un calendario propio, con cada partido programado, su pabellón y su resultado. Comparta un calendario para usarlo en las escenas. Sin cuenta ni clave: la integración lee el sitio web público."
+        "en": "Each member of the household chooses their own teams: in My calendars on this page, paste the address of the ffhandball.fr page of each team (it ends with /equipe-<number>/), separated by commas, then enable. Each team becomes a calendar of its own, with every scheduled match, its hall and its score. Share a calendar there to use it in scenes. No account, no key: the integration reads the public website.",
+        "fr": "Chaque membre du foyer choisit ses équipes : dans Mes calendriers sur cette page, collez l'adresse de la page ffhandball.fr de chaque équipe (elle finit par /equipe-<numéro>/), séparées par des virgules, puis activez. Chaque équipe devient un calendrier, avec chaque match programmé, sa salle et son score. Partagez un calendrier pour l'utiliser dans les scènes. Pas de compte, pas de clé : l'intégration lit le site public.",
+        "de": "Jedes Haushaltsmitglied wählt seine eigenen Mannschaften: Füge unter Meine Kalender auf dieser Seite die Adresse der ffhandball.fr-Seite jeder Mannschaft ein (sie endet mit /equipe-<Nummer>/), durch Kommas getrennt, und aktiviere. Jede Mannschaft wird ein eigener Kalender mit jedem angesetzten Spiel, seiner Halle und seinem Ergebnis. Teile dort einen Kalender, um ihn in Szenen zu nutzen. Kein Konto, kein Schlüssel: Die Integration liest die öffentliche Website.",
+        "es": "Cada miembro del hogar elige sus equipos: en Mis calendarios en esta página, pegue la dirección de la página de ffhandball.fr de cada equipo (termina en /equipe-<número>/), separadas por comas, y active. Cada equipo se convierte en un calendario propio, con cada partido programado, su pabellón y su resultado. Comparta un calendario para usarlo en las escenas. Sin cuenta ni clave: la integración lee el sitio web público."
       },
       "links": [
         {
@@ -95,10 +95,10 @@
         "es": "Equipos"
       },
       "description": {
-        "en": "Addresses of ffhandball.fr team pages, one per line. Each team becomes one of your calendars. Team pages change every season: paste the new address in September.",
-        "fr": "Adresses des pages équipe de ffhandball.fr, une par ligne. Chaque équipe devient un de vos calendriers. Les pages équipe changent à chaque saison : collez la nouvelle adresse en septembre.",
-        "de": "Adressen von Mannschaftsseiten auf ffhandball.fr, eine pro Zeile. Jede Mannschaft wird einer deiner Kalender. Die Mannschaftsseiten ändern sich jede Saison: Füge im September die neue Adresse ein.",
-        "es": "Direcciones de páginas de equipo de ffhandball.fr, una por línea. Cada equipo se convierte en uno de sus calendarios. Las páginas cambian cada temporada: pegue la nueva dirección en septiembre."
+        "en": "Addresses of ffhandball.fr team pages, separated by commas. Each team becomes one of your calendars. Team pages change every season: paste the new address in September.",
+        "fr": "Adresses des pages équipe de ffhandball.fr, séparées par des virgules. Chaque équipe devient un de vos calendriers. Les pages équipe changent à chaque saison : collez la nouvelle adresse en septembre.",
+        "de": "Adressen von Mannschaftsseiten auf ffhandball.fr, durch Kommas getrennt. Jede Mannschaft wird einer deiner Kalender. Die Mannschaftsseiten ändern sich jede Saison: Füge im September die neue Adresse ein.",
+        "es": "Direcciones de páginas de equipo de ffhandball.fr, separadas por comas. Cada equipo se convierte en uno de sus calendarios. Las páginas cambian cada temporada: pegue la nueva dirección en septiembre."
       },
       "placeholder": {
         "en": "https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/daikin-starligue-2026-27-32372/equipe-2119699/",

@@ -23,7 +23,8 @@ export const REFRESH_MINUTES = { min: 15, max: 1440 };
 
 // Same rule for the per-user `account_schema`.
 export const DEFAULT_ACCOUNT = {
-  // ffhandball.fr team pages, one per line.
+  // ffhandball.fr team pages, separated by commas: the Gladys form field is
+  // a single line.
   teams: '',
 };
 
@@ -90,8 +91,8 @@ export function parseCompetitionUrl(url) {
 }
 
 /**
- * Read the teams out of a `teams` field: one address per line (a comma, a
- * semicolon or spaces work too). An address that is not a team page is
+ * Read the teams out of a `teams` field: addresses separated by commas (the
+ * form field is a single line), semicolons, spaces or line breaks. An address that is not a team page is
  * reported, never silently dropped.
  * @param {string} text
  * @returns {{ teams: ReturnType<typeof parseTeamUrl>[], invalid: string[] }}

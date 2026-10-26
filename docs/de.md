@@ -25,7 +25,7 @@ Beide arbeiten zusammen, mit denselben Mannschaftsadressen.
    ```
 
 3. Öffne in Gladys die Seite der Integration. Füge im Block **Meine Kalender** die Adresse in
-   **Mannschaften** ein, eine pro Zeile für mehrere Mannschaften, und aktiviere.
+   **Mannschaften** ein, mehrere Mannschaften durch Kommas getrennt, und aktiviere.
 
 Jedes Haushaltsmitglied aktiviert die Integration für sich selbst und wählt seine eigenen
 Mannschaften: Die Kalender gehören ihm. Sie sind anfangs **privat**: Teile einen im selben
@@ -43,7 +43,7 @@ angelegt.
 
 | Feld                                   | Zweck                                                                                                                  |
 | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| **Mannschaften** (Meine Kalender)      | Adressen von Mannschaftsseiten, eine pro Zeile. Eine Liste pro Benutzer.                                               |
+| **Mannschaften** (Meine Kalender)      | Adressen von Mannschaftsseiten, durch Kommas (oder Leerzeichen) getrennt. Eine Liste pro Benutzer.                     |
 | **Aktualisierungsintervall (Minuten)** | Minuten zwischen zwei Lesevorgängen von ffhandball.fr, für alle Kalender (Standard 60, mindestens 15, höchstens 1440). |
 
 **Jetzt synchronisieren** liest sofort jede Mannschaft jedes Benutzers und zeigt, Mannschaft

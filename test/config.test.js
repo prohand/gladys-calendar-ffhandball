@@ -30,10 +30,28 @@ test('a team address is cleaned up: no query, no trailing parts, lower case', ()
   assert.equal(ref.url, PSG);
 });
 
-test('the teams field takes one address per line, reports the others, skips duplicates', () => {
+test('the teams field takes addresses separated by commas, reports the others, skips duplicates', () => {
   const { teams, invalid } = parseTeams(`${PSG}\n\n${PSG}, https://example.com/x ; nope`);
   assert.equal(teams.length, 1);
   assert.deepEqual(invalid, ['https://example.com/x', 'nope']);
+});
+
+test('two addresses on the single line of the form field, with or without spaces', () => {
+  const other = PSG.replace('equipe-2119699', 'equipe-2119702');
+  for (const text of [
+    `${PSG},${other}`,
+    `${PSG}, ${other}`,
+    `${PSG} ${other}`,
+    `${PSG};${other}`,
+  ]) {
+    const { teams, invalid } = parseTeams(text);
+    assert.deepEqual(
+      teams.map((team) => team.teamId),
+      ['2119699', '2119702'],
+      text,
+    );
+    assert.deepEqual(invalid, []);
+  }
 });
 
 test('a competition or pool page is a competition address, a team page too', () => {

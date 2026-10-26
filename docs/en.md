@@ -25,7 +25,7 @@ together, with the same team addresses.
    ```
 
 3. In Gladys, open the page of the integration. In the **My calendars** block, paste the
-   address in **Teams**, one per line for several teams, then enable.
+   address in **Teams**, several teams separated by commas, then enable.
 
 Each member of the household enables the integration for themselves and picks their own
 teams: the calendars are theirs. They start **private**: share one, in the same block, so the
@@ -43,7 +43,7 @@ season.
 
 | Field                          | Role                                                                                                      |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------- |
-| **Teams** (My calendars)       | Addresses of team pages, one per line. One list per user.                                                 |
+| **Teams** (My calendars)       | Addresses of team pages, separated by commas (or spaces). One list per user.                              |
 | **Refresh interval (minutes)** | Minutes between two reads of ffhandball.fr, for every calendar (60 by default, 15 minimum, 1440 maximum). |
 
 **Sync now** reads every team of every user right away and says, team by team, how many
