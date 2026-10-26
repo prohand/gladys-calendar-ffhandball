@@ -10,6 +10,11 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+### Changed
+
+- Store: a cover of its own (a match calendar), no longer the one of the FFHandball
+  integration.
+
 ## [1.0.1] - 2026-10-26
 
 ### Added
