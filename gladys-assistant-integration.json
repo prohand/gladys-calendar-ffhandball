@@ -1,0 +1,169 @@
+{
+  "manifest_version": 1,
+  "type": "calendar",
+  "name": "FFHandball Calendar",
+  "description": {
+    "en": "The matches of your French handball teams in the Gladys calendar, from ffhandball.fr.",
+    "fr": "Les matchs de vos équipes de handball dans le calendrier Gladys, depuis ffhandball.fr.",
+    "de": "Die Spiele deiner französischen Handballteams im Gladys-Kalender, von ffhandball.fr.",
+    "es": "Los partidos de sus equipos de balonmano franceses en el calendario de Gladys."
+  },
+  "version": "1.0.0",
+  "docker_image": "ghcr.io/prohand/gladys-calendar-ffhandball:1.0.0",
+  "gladys_version": ">=5.3.0",
+  "cover_image": "https://raw.githubusercontent.com/prohand/gladys-calendar-ffhandball/main/cover.png",
+  "categories": ["leisure", "services"],
+  "keywords": [
+    "ffhb",
+    "fédération handball",
+    "calendrier",
+    "agenda",
+    "match",
+    "starligue",
+    "proligue",
+    "nationale 1",
+    "championnat",
+    "club"
+  ],
+  "countries": ["FR"],
+  "config_schema": [
+    {
+      "key": "intro",
+      "type": "section",
+      "label": {
+        "en": "Getting started",
+        "fr": "Pour commencer",
+        "de": "Erste Schritte",
+        "es": "Primeros pasos"
+      },
+      "description": {
+        "en": "Each member of the household chooses their own teams: in My calendars on this page, paste the address of the ffhandball.fr page of each team (it ends with /equipe-<number>/), one per line, then enable. Each team becomes a calendar of its own, with every scheduled match, its hall and its score. Share a calendar there to use it in scenes. No account, no key: the integration reads the public website.",
+        "fr": "Chaque membre du foyer choisit ses équipes : dans Mes calendriers sur cette page, collez l'adresse de la page ffhandball.fr de chaque équipe (elle finit par /equipe-<numéro>/), une par ligne, puis activez. Chaque équipe devient un calendrier, avec chaque match programmé, sa salle et son score. Partagez un calendrier pour l'utiliser dans les scènes. Pas de compte, pas de clé : l'intégration lit le site public.",
+        "de": "Jedes Haushaltsmitglied wählt seine eigenen Mannschaften: Füge unter Meine Kalender auf dieser Seite die Adresse der ffhandball.fr-Seite jeder Mannschaft ein (sie endet mit /equipe-<Nummer>/), eine pro Zeile, und aktiviere. Jede Mannschaft wird ein eigener Kalender mit jedem angesetzten Spiel, seiner Halle und seinem Ergebnis. Teile dort einen Kalender, um ihn in Szenen zu nutzen. Kein Konto, kein Schlüssel: Die Integration liest die öffentliche Website.",
+        "es": "Cada miembro del hogar elige sus equipos: en Mis calendarios en esta página, pegue la dirección de la página de ffhandball.fr de cada equipo (termina en /equipe-<número>/), una por línea, y active. Cada equipo se convierte en un calendario propio, con cada partido programado, su pabellón y su resultado. Comparta un calendario para usarlo en las escenas. Sin cuenta ni clave: la integración lee el sitio web público."
+      },
+      "links": [
+        {
+          "url": "https://www.ffhandball.fr/competitions/",
+          "label": {
+            "en": "ffhandball.fr competitions",
+            "fr": "Compétitions ffhandball.fr",
+            "de": "Wettbewerbe auf ffhandball.fr",
+            "es": "Competiciones de ffhandball.fr"
+          }
+        },
+        {
+          "url": "https://github.com/prohand/gladys-calendar-ffhandball/blob/main/docs/en.md",
+          "label": {
+            "en": "Integration documentation",
+            "fr": "Documentation de l'intégration",
+            "de": "Dokumentation der Integration",
+            "es": "Documentación de la integración"
+          }
+        }
+      ]
+    },
+    {
+      "key": "refresh_minutes",
+      "type": "number",
+      "label": {
+        "en": "Refresh interval (minutes)",
+        "fr": "Intervalle de rafraîchissement (minutes)",
+        "de": "Aktualisierungsintervall (Minuten)",
+        "es": "Intervalo de actualización (minutos)"
+      },
+      "description": {
+        "en": "How often ffhandball.fr is read for every calendar. Fixtures move a few times a season and the site refreshes its pages about once an hour.",
+        "fr": "Fréquence de lecture de ffhandball.fr pour tous les calendriers. Les horaires changent quelques fois par saison et le site rafraîchit ses pages environ une fois par heure.",
+        "de": "Wie oft ffhandball.fr für alle Kalender gelesen wird. Spieltermine ändern sich ein paar Mal pro Saison, und die Website aktualisiert ihre Seiten etwa einmal pro Stunde.",
+        "es": "Frecuencia de lectura de ffhandball.fr para todos los calendarios. Los horarios cambian pocas veces por temporada y el sitio actualiza sus páginas más o menos una vez por hora."
+      },
+      "required": false,
+      "default": 60,
+      "min": 15,
+      "max": 1440
+    }
+  ],
+  "account_schema": [
+    {
+      "key": "teams",
+      "type": "string",
+      "label": {
+        "en": "Teams",
+        "fr": "Équipes",
+        "de": "Mannschaften",
+        "es": "Equipos"
+      },
+      "description": {
+        "en": "Addresses of ffhandball.fr team pages, one per line. Each team becomes one of your calendars. Team pages change every season: paste the new address in September.",
+        "fr": "Adresses des pages équipe de ffhandball.fr, une par ligne. Chaque équipe devient un de vos calendriers. Les pages équipe changent à chaque saison : collez la nouvelle adresse en septembre.",
+        "de": "Adressen von Mannschaftsseiten auf ffhandball.fr, eine pro Zeile. Jede Mannschaft wird einer deiner Kalender. Die Mannschaftsseiten ändern sich jede Saison: Füge im September die neue Adresse ein.",
+        "es": "Direcciones de páginas de equipo de ffhandball.fr, una por línea. Cada equipo se convierte en uno de sus calendarios. Las páginas cambian cada temporada: pegue la nueva dirección en septiembre."
+      },
+      "placeholder": {
+        "en": "https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/daikin-starligue-2026-27-32372/equipe-2119699/",
+        "fr": "https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/daikin-starligue-2026-27-32372/equipe-2119699/",
+        "de": "https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/daikin-starligue-2026-27-32372/equipe-2119699/",
+        "es": "https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/daikin-starligue-2026-27-32372/equipe-2119699/"
+      },
+      "required": false
+    }
+  ],
+  "actions": [
+    {
+      "key": "sync_now",
+      "label": {
+        "en": "Sync now",
+        "fr": "Synchroniser maintenant",
+        "de": "Jetzt synchronisieren",
+        "es": "Sincronizar ahora"
+      },
+      "timeout_seconds": 120
+    },
+    {
+      "key": "list_teams",
+      "label": {
+        "en": "List the teams of a competition",
+        "fr": "Lister les équipes d'une compétition",
+        "de": "Mannschaften eines Wettbewerbs auflisten",
+        "es": "Listar los equipos de una competición"
+      },
+      "timeout_seconds": 60,
+      "fields": [
+        {
+          "key": "list_teams_intro",
+          "type": "section",
+          "label": {
+            "en": "Find the address of a team page",
+            "fr": "Trouver l'adresse d'une page équipe",
+            "de": "Die Adresse einer Mannschaftsseite finden",
+            "es": "Encontrar la dirección de una página de equipo"
+          },
+          "description": {
+            "en": "Paste the address of a competition (or of one of its pools) of ffhandball.fr: the answer lists its teams with the address to paste in the Teams field of My calendars.",
+            "fr": "Collez l'adresse d'une compétition (ou d'une de ses poules) de ffhandball.fr : la réponse liste ses équipes avec l'adresse à coller dans le champ Équipes de Mes calendriers.",
+            "de": "Füge die Adresse eines Wettbewerbs (oder einer seiner Gruppen) von ffhandball.fr ein: Die Antwort listet seine Mannschaften mit der Adresse auf, die in das Feld Mannschaften unter Meine Kalender gehört.",
+            "es": "Pegue la dirección de una competición (o de uno de sus grupos) de ffhandball.fr: la respuesta lista sus equipos con la dirección que hay que pegar en el campo Equipos de Mis calendarios."
+          }
+        },
+        {
+          "key": "url",
+          "type": "string",
+          "label": {
+            "en": "Competition address",
+            "fr": "Adresse de la compétition",
+            "de": "Adresse des Wettbewerbs",
+            "es": "Dirección de la competición"
+          },
+          "placeholder": {
+            "en": "https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/daikin-starligue-2026-27-32372/",
+            "fr": "https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/daikin-starligue-2026-27-32372/",
+            "de": "https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/daikin-starligue-2026-27-32372/",
+            "es": "https://www.ffhandball.fr/competitions/saison-2026-2027-22/national/daikin-starligue-2026-27-32372/"
+          },
+          "required": true
+        }
+      ]
+    }
+  ]
+}
