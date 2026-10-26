@@ -24,7 +24,7 @@ User documentation: [English](./docs/en.md) · [Français](./docs/fr.md) · [Deu
 
 | Surface                         | Content                                                                                                         |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| **My calendars** (one per user) | The team page addresses of that user, one per line                                                              |
+| **My calendars** (one per user) | The team page addresses of that user, separated by commas                                                       |
 | **Calendar** (one per team)     | Named after the team and its competition, with its own color; private until the user shares it                  |
 | **Event** (one per match)       | Teams (score once played), kick-off for 1 h 30, hall and address, competition, round, home / away, result, link |
 | **Configuration**               | Refresh interval · Sync now · List the teams of a competition                                                   |

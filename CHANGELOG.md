@@ -13,7 +13,7 @@ the notes of the version's GitHub Release.
 ### Added
 
 - The matches of French handball teams in the Gladys calendar, from ffhandball.fr: each user
-  who enables the integration pastes the addresses of their team pages in **My calendars**,
+  who enables the integration pastes the addresses of their team pages in **My calendars**, separated by commas,
   and each team becomes one of their calendars (Gladys 5.3.0 or later).
 - One event per scheduled match: the teams (and the score once played), the kick-off for
   1 h 30, the hall and its address (from the club's calendar feed on ffhandball.fr), the

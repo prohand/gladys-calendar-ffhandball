@@ -26,7 +26,7 @@ las dos funcionan juntas, con las mismas direcciones de equipo.
    ```
 
 3. En Gladys, abra la página de la integración. En el bloque **Mis calendarios**, pegue la
-   dirección en **Equipos**, una por línea para varios equipos, y active.
+   dirección en **Equipos**, varios equipos separados por comas, y active.
 
 Cada miembro del hogar activa la integración para sí mismo y elige sus propios equipos: los
 calendarios son suyos. Empiezan siendo **privados**: comparta uno, en el mismo bloque, para que
@@ -44,7 +44,7 @@ nuevo para la temporada.
 
 | Campo                                    | Función                                                                                                                     |
 | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| **Equipos** (Mis calendarios)            | Direcciones de páginas de equipo, una por línea. Una lista por usuario.                                                     |
+| **Equipos** (Mis calendarios)            | Direcciones de páginas de equipo, separadas por comas (o espacios). Una lista por usuario.                                  |
 | **Intervalo de actualización (minutos)** | Minutos entre dos lecturas de ffhandball.fr, para todos los calendarios (60 por defecto, 15 como mínimo, 1440 como máximo). |
 
 **Sincronizar ahora** lee al momento cada equipo de cada usuario e indica, equipo por equipo,

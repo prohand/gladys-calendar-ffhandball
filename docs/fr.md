@@ -25,7 +25,7 @@ deux fonctionnent ensemble, avec les mêmes adresses d'équipe.
    ```
 
 3. Dans Gladys, ouvrez la page de l'intégration. Dans le bloc **Mes calendriers**, collez
-   l'adresse dans **Équipes**, une par ligne pour plusieurs équipes, puis activez.
+   l'adresse dans **Équipes**, plusieurs équipes séparées par des virgules, puis activez.
 
 Chaque membre du foyer active l'intégration pour lui-même et choisit ses propres équipes : les
 calendriers sont à lui. Ils sont **privés** au départ : partagez-en un, dans le même bloc, pour
@@ -43,7 +43,7 @@ nouveau est créé pour la saison.
 
 | Champ                                        | Rôle                                                                                                               |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| **Équipes** (Mes calendriers)                | Adresses des pages équipe, une par ligne. Une par utilisateur.                                                     |
+| **Équipes** (Mes calendriers)                | Adresses des pages équipe, séparées par des virgules (ou des espaces). Une par utilisateur.                        |
 | **Intervalle de rafraîchissement (minutes)** | Minutes entre deux lectures de ffhandball.fr, pour tous les calendriers (60 par défaut, 15 minimum, 1440 maximum). |
 
 **Synchroniser maintenant** lit tout de suite chaque équipe de chaque utilisateur et indique,
