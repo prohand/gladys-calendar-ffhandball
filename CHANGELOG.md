@@ -10,6 +10,8 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-11-16
+
 ### Changed
 
 - Store: a cover of its own (a match calendar), no longer the one of the FFHandball
@@ -35,5 +37,6 @@ the notes of the version's GitHub Release.
   UI-driven Release workflow, multi-arch image build, GitHub Releases, Dependabot.
 - `SECURITY.md`, `CLAUDE.md` and this changelog.
 
-[Unreleased]: https://github.com/prohand/gladys-calendar-ffhandball/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/prohand/gladys-calendar-ffhandball/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/prohand/gladys-calendar-ffhandball/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/prohand/gladys-calendar-ffhandball/releases/tag/v1.0.1
