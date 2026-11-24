@@ -10,6 +10,8 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+## [1.0.5] - 2026-11-24
+
 ### Changed
 
 - Declared `transports: ["cloud"]` (the matches come from ffhandball.fr): the
@@ -50,7 +52,8 @@ the notes of the version's GitHub Release.
   UI-driven Release workflow, multi-arch image build, GitHub Releases, Dependabot.
 - `SECURITY.md`, `CLAUDE.md` and this changelog.
 
-[Unreleased]: https://github.com/prohand/gladys-calendar-ffhandball/compare/v1.0.4...HEAD
+[Unreleased]: https://github.com/prohand/gladys-calendar-ffhandball/compare/v1.0.5...HEAD
+[1.0.5]: https://github.com/prohand/gladys-calendar-ffhandball/compare/v1.0.4...v1.0.5
 [1.0.4]: https://github.com/prohand/gladys-calendar-ffhandball/compare/v1.0.3...v1.0.4
 [1.0.3]: https://github.com/prohand/gladys-calendar-ffhandball/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/prohand/gladys-calendar-ffhandball/compare/v1.0.1...v1.0.2
