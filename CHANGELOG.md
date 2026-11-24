@@ -10,6 +10,11 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+### Changed
+
+- Declared `transports: ["cloud"]` (the matches come from ffhandball.fr): the
+  Cloud filter of the Gladys catalog now finds the integration.
+
 ## [1.0.4] - 2026-11-16
 
 - Maintenance release, no functional change.

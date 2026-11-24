@@ -35,9 +35,12 @@ test('the integration is a calendar provider, listening to the account changes',
   assert.equal(manifest.type, 'calendar');
   assert.match(indexSource, /onCalendarAccountUpdated\(/);
   // A calendar integration has no devices: no device declaration to carry.
-  for (const field of ['transports', 'scene_triggers', 'scene_actions', 'widgets', 'music']) {
+  for (const field of ['scene_triggers', 'scene_actions', 'widgets', 'music']) {
     assert.equal(manifest[field], undefined, `manifest.${field}`);
   }
+  // `transports` is also the catalog tag the Local / Cloud filters of Gladys
+  // read: the matches come from ffhandball.fr, a cloud service.
+  assert.deepEqual(manifest.transports, ['cloud']);
 });
 
 test('every manifest action is registered in index.js, and has a handler', () => {
